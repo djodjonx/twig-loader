@@ -1,4 +1,4 @@
-# twig-loader
+# twig-webpack-loader
 Webpack loader for compiling Twig.js templates. This loader will allow you to require Twig.js views to your code.
 fork from [twig-loader](https://github.com/zimmo-be/twig-loader)
 
