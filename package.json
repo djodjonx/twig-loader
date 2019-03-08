@@ -23,8 +23,8 @@
     "hasha": "^2.2.0",
     "loader-utils": "^0.2.11",
     "map-cache": "^0.2.2",
-    "twig": "~0.8.9",
-    "underscore": "^1.8.3"
+    "twig": "^1.13.2",
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
     "mocha": "*",
