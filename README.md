@@ -4,7 +4,7 @@ fork from [twig-loader](https://github.com/zimmo-be/twig-loader)
 
 ## Installation
 
-`npm install --save-dev twigjs-loader`
+`npm install --save-dev twig-webpack-loader`
 
 ## Usage
 
@@ -17,7 +17,7 @@ module.exports = {
 
     module: {
         loaders: [
-            { test: /\.twig$/, loader: "twigjs-loader" }
+            { test: /\.twig$/, loader: "twig-webpack-loader" }
         ]
     },
 
@@ -69,7 +69,7 @@ module.exports = {
       test: /\.twig$/,
       use: [
         {
-          loader: 'twig-html-loader',
+          loader: 'twig-webpack-loader',
           options: {
             functions: {
               repeat(value, times) {

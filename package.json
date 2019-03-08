@@ -1,5 +1,5 @@
 {
-  "name": "twigjs-loader",
+  "name": "twig-webpack-loader",
   "version": "0.1.0",
   "description": "Webpack loader for compiling twig.js templates",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/djodjonx/twig-loader.git"
+    "url": "git+https://github.com/djodjonx/twig-webpack-loader.git"
   },
-  "author": "Mathieu Maes @ Zimmo.be",
+  "author": "djodjonx",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/djodjonx/twig-loader/issues"
+    "url": "https://github.com/djodjonx/twig-webpack-loader/issues"
   },
-  "homepage": "https://github.com/djodjonx/twig-loader#readme",
+  "homepage": "https://github.com/djodjonx/twig-webpack-loader#readme",
   "peerDependencies": {
     "twig": "^1.13.2"
   },
